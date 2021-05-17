@@ -2,7 +2,7 @@
 
 .blog-header {
   line-height: 1;
-  border-bottom: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;//px to rem
 }
 
 .blog-header-logo {
@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
   padding-bottom: 1rem;
-  margin-top: -1px;
+  margin-top: -1px;//px to rem
   overflow-x: auto;
   text-align: center;
   white-space: nowrap;
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-img-right {
   height: 100%;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;//px to rem
 }
 
 .flex-auto {
@@ -63,9 +63,9 @@ h1, h2, h3, h4, h5, h6 {
   flex: 0 0 auto;
 }
 
-.h-250 { height: 250px; }
-@media (min-width: 768px) {
-  .h-md-250 { height: 250px; }
+.h-250 { height: 250px; }//px to rem
+@media (min-width: 768px) {//px to rem
+  .h-md-250 { height: 250px; }//px to rem
 }
 
 /* Pagination */
