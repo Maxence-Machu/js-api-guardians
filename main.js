@@ -45,7 +45,7 @@ function renderArticle(article) {
     day: "numeric",
   };
 
-  _date = _date.toLocaleDateString("fr-FR", options);
+  _date = _date.toLocaleDateString("en-EN", options);
 
   /*
   TODO: 
